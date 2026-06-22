@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyprien Viard | Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="progress-bar"></div>
+
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="index.html" class="active">// accueil</a>
+                <a href="cv.html">// cv</a>
+            </div>
+            <button id="theme-toggle">🌓 mode</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 class="neon-text">CYPRIEN_VIARD</h1>
+            <p class="subtitle">B.U.T. Réseaux & Télécommunications • Spécialité Cybersécurité</p>
+        </section>
+
+        <section class="terminal-container card">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">cyprien@cyberdefense-core:~</div>
+            </div>
+            <div class="terminal-body" id="terminal-output">
+                <div class="terminal-line">👉 Bienvenue sur mon noyau interactif.</div>
+                <div class="terminal-line text-muted">Tapez <span class="highlight">help</span> pour voir les commandes disponibles ou essayez <span class="highlight">projects</span>.</div>
+                <br>
+            </div>
+            <div class="terminal-input-row">
+                <span class="terminal-prompt">cyprien@cyberdefense-core:~$</span>
+                <input type="text" id="terminal-input" autofocus autocomplete="off" spellcheck="false">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ROOT@CYPRIEN-VIARD // 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

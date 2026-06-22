@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyprien Viard | Infrastructure CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="progress-bar"></div>
+
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="index.html">// accueil</a>
+                <a href="cv.html" class="active">// cv</a>
+            </div>
+            <button id="theme-toggle">🌓 mode</button>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="cv-grid">
+            <div class="main-cv-col">
+                <section class="card cyber-card">
+                    <div class="card-status-bar"><span class="status-dot online"></span> ENV: RUNNING</div>
+                    <h2>📂 Expériences Professionnelles</h2>
+                    
+                    <div class="timeline-item">
+                        <h3>Technicien Client — Orange (Alternance)</h3>
+                        <p class="date">Depuis Septembre 2025</p>
+                        <p class="text-muted">Déploiement de structures critiques :</p>
+                        <ul>
+                            <li>Intégration d'architectures de téléphonie IPBx.</li>
+                            <li>Diagnostic de flux réseaux via analyseurs de paquets (Couches 2/3 OSI).</li>
+                            <li>Raccordement d'infrastructures FTTH / FTTO.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Technicien Municipal — Mairie de Limours</h3>
+                        <p class="date">Août 2024</p>
+                        <ul>
+                            <li>Supervision et maintenance du parc d'infrastructures municipales.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>Arbitre de Football — FFF</h3>
+                        <p class="date">2022 – 2024</p>
+                        <ul>
+                            <li>Gestion de crises sous forte pression, arbitrage impartial et application des protocoles réglementaires.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="card cyber-card">
+                    <h2>🎓 Éducation & Cursus</h2>
+                    <div class="timeline-item">
+                        <h3>B.U.T. Réseaux & Télécommunications</h3>
+                        <p class="institution">IUT de Reims-Châlons-Charleville</p>
+                        <p class="date">En cours</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Baccalauréat Général</h3>
+                        <p class="institution">Lycée Jules Verne, Limours</p>
+                        <p class="date">Diplômé en 2024 // Spécialités Mathématiques & SES</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="side-cv-col">
+                <section class="card cyber-card">
+                    <h2>🛠️ Stack Technique</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">ALL</button>
+                        <button class="filter-btn" data-filter="tech">HARD_SKILLS</button>
+                        <button class="filter-btn" data-filter="soft">SOFT_SKILLS</button>
+                    </div>
+                    <ul class="skills-list" id="skills-container">
+                        <li data-cat="tech">Routage IP (OSPF/BGP)</li>
+                        <li data-cat="tech">Commutation (VLANs, STP)</li>
+                        <li data-cat="tech">Sécurisation des services</li>
+                        <li data-cat="tech">Hardening Linux & Windows</li>
+                        <li data-cat="tech">Analyse CTF / Pentest basique</li>
+                        <li data-cat="soft">Esprit d'équipe & Collaboration</li>
+                        <li data-cat="soft">Relation Client & Support</li>
+                    </ul>
+                </section>
+
+                <section class="card cyber-card">
+                    <h2>🌍 Certifications & Langues</h2>
+                    <div class="language-box">
+                        <div class="lang-header">
+                            <span>Anglais (Professionnel)</span>
+                            <span class="highlight">720/990 TOEIC</span>
+                        </div>
+                        <div class="progress-container">
+                            <div class="progress-bar-fill" style="width: 72%;"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card cyber-card">
+                    <h2>♟️ Intérêts / Hobbies</h2>
+                    <ul class="interests-list">
+                        <li>⚡ <strong>Échecs :</strong> Compétitions Essonne / IDF.</li>
+                        <li>🥊 <strong>Sports :</strong> Muay Thaï & Football.</li>
+                        <li>🤝 <strong>Bénévolat :</strong> Association Handi'chiens.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>ROOT@CYPRIEN-VIARD // 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
